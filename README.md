@@ -1,11 +1,11 @@
-<h1>SeamlessSpeech-Multilingual-Speech-Text-Translator</h1>
+<h1>🎙️SeamlessSpeech-Multilingual-Speech-Text-Translator</h1>
 
 A powerful Gradio-based interface built on Facebook’s SeamlessM4T-v2 model for multilingual speech ↔ text translation and generation.
 
 <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-36-02" src="https://github.com/user-attachments/assets/215ad49d-0078-4c03-b099-b681a551fcb4" />
 
 
-<h3>This project supports:</h3>
+<h3>📝 This project supports:</h3>
 
    <h4>1) ASR — Automatic Speech Recognition (Audio → Text)</h4>  <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-28-16" src="https://github.com/user-attachments/assets/01110fc8-f784-4033-bad7-ca6f075e9a06" />
 
@@ -28,7 +28,7 @@ A powerful Gradio-based interface built on Facebook’s SeamlessM4T-v2 model for
    6) Clean Gradio UI with task-based flow   
    7) Audio output saved as .wav
 				
-<h3>Install dependencies</h3>
+<h3>📦Install dependencies</h3>
 
         pip install torch torchvision torchaudio
         pip install transformers soundfile librosa gradio numpy
