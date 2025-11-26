@@ -1,24 +1,24 @@
-# Gowthamtj17-SeamlessSpeech-Multilingual-Speech-Text-Translator
+<h1>SeamlessSpeech-Multilingual-Speech-Text-Translator</h1>
 
 A powerful Gradio-based interface built on Facebook’s SeamlessM4T-v2 model for multilingual speech ↔ text translation and generation.
 
 <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-36-02" src="https://github.com/user-attachments/assets/215ad49d-0078-4c03-b099-b681a551fcb4" />
 
 
-This project supports:
+<h3>This project supports:</h3>
 
-   1) ASR — Automatic Speech Recognition (Audio → Text)  <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-28-16" src="https://github.com/user-attachments/assets/01110fc8-f784-4033-bad7-ca6f075e9a06" />
+   <h4>1) ASR — Automatic Speech Recognition (Audio → Text)</h4>  <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-28-16" src="https://github.com/user-attachments/assets/01110fc8-f784-4033-bad7-ca6f075e9a06" />
 
-   2) S2TT — Speech → Translated Text <img width="1920" height="1080" alt="Screenshot from 2025-11-26 15-59-36" src="https://github.com/user-attachments/assets/2b732e54-3313-4110-b609-21cc5c9948f2" />
+   <h4>2) S2TT — Speech → Translated Text</h4> <img width="1920" height="1080" alt="Screenshot from 2025-11-26 15-59-36" src="https://github.com/user-attachments/assets/2b732e54-3313-4110-b609-21cc5c9948f2" />
 
-   3) S2ST — Speech → Speech Translation <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-24-28" src="https://github.com/user-attachments/assets/725f3a82-2f23-493d-a3d8-813d93ee5ef1" />
+   <h4>3) S2ST — Speech → Speech Translation</h4> <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-24-28" src="https://github.com/user-attachments/assets/725f3a82-2f23-493d-a3d8-813d93ee5ef1" />
 
-   4) T2ST — Text → Speech Generation <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-12-08" src="https://github.com/user-attachments/assets/69eae1c6-f723-4c0e-9eb4-59d9c314a7c7" />
+   <h4>4) T2ST — Text → Speech Generation</h4> <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-12-08" src="https://github.com/user-attachments/assets/69eae1c6-f723-4c0e-9eb4-59d9c314a7c7" />
 
-   5) T2TT — Text → Text Translation <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-08-53" src="https://github.com/user-attachments/assets/b1c426ce-b82b-4b7a-85d0-f2489cc522ba" />
+   <h4>5) T2TT — Text → Text Translation</h4> <img width="1920" height="1080" alt="Screenshot from 2025-11-26 16-08-53" src="https://github.com/user-attachments/assets/b1c426ce-b82b-4b7a-85d0-f2489cc522ba" />
 
 
-🚀 Features
+<h3>🚀 Features</h3>
 
    1) Multilingual speech & text translation    
    2) Upload or record audio
@@ -28,54 +28,54 @@ This project supports:
    6) Clean Gradio UI with task-based flow   
    7) Audio output saved as .wav
 				
-Install dependencies
+<h3>Install dependencies</h3>
 
         pip install torch torchvision torchaudio
         pip install transformers soundfile librosa gradio numpy
 
-📘 Supported Tasks:
+<h3>📘 Supported Tasks:</h3>
 
  1. ASR (Audio → Text):
     
-    Upload audio
+    1) Upload audio
        
-    Click Run
+    2) Click Run
      
-    Output displays recognized text
+    3) Output displays recognized text
 
  3. S2TT (Speech → Translated Text):
     
-    Upload audio
+	1) Upload audio
     
-    Select target language
+    2) Select target language
     
-    Produces translated text
+    3) Produces translated text
 
  4. S2ST (Speech → Speech Translation):
     
-    Upload audio
+    1) Upload audio
     
-    Choose target language
+    2) Choose target language
     
-    Generates translated .wav output
+    3) Generates translated .wav output
 
  5. T2ST (Text → Speech Translation):
     
-    Provide text
+    1)  Provide text
     
-    Choose source & target language
+    2) Choose source & target language
     
-    Generates spoken audio output
+    3) Generates spoken audio output
     
  6. T2TT (Text → Text Translation):
     
-    Enter text
+    1) Enter text
     
-    Select target language
+    2) Select target language
     
-    Produces translated text
+    3) Produces translated text
 
-🌍 Available Languages
+<h3>🌍 Available Languages</h3>
 
 		English     → eng
 		Hindi       → hin
@@ -91,7 +91,7 @@ Install dependencies
 		Russian     → rus  
    You can extend this list anytime.
 
-⚙️ How It Works
+<h3>⚙️ How It Works</h3>
 
 1) Audio is always resampled to 16 kHz using librosa.	
 2) Model outputs either:
@@ -99,9 +99,9 @@ Install dependencies
    2) audio tensors → saved as .wav    
 3) GPU is automatically used if available (torch.cuda.is_available())
 
-🧪 Troubleshooting
+<h3>🧪 Troubleshooting</h3>
 
-  Issue	Fix
+  <h4>Issue	Fix</h4>
 
   1) Slow processing	Use GPU runtime (especially in Colab)
   2) CUDA OOM	Reduce input length or switch to CPU
